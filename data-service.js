@@ -112,5 +112,18 @@ module.exports.addEmployees = function(employeeData){
         employeeData.employeeNum = employees.length + 1;
         employees.push(employeeData);
         resolve();
-    })
-}
+    });
+};
+
+module.exports.updateEmployee = function(employeeData){
+    return new Promise(function(resolve, reject){
+        var found = false;
+        for(var i = 0; i < employees.length && !found; i++){
+            if(employees[i].employeeNum == employeeData.employeeNum){
+                found = true;
+                employees[i] = employeeData;
+            }
+        }
+        resolve();
+    });
+};
