@@ -1,10 +1,10 @@
 /*********************************************************************************
-* WEB322 – Assignment 03
+* WEB322 – Assignment 04
 * I declare that this assignment is my own work in accordance with Seneca Academic Policy. No part
 * of this assignment has been copied manually or electronically from any other source
 * (including 3rd party web sites) or distributed to other students.
 *
-* Name: Hyun Jun Joo  Student ID: 125930172  Date: June 22, 2018
+* Name: Hyun Jun Joo  Student ID: 125930172  Date: July 18, 2018
 *
 * Online (Heroku) Link: https://powerful-garden-81674.herokuapp.com/
 *
